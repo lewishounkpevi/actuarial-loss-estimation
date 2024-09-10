@@ -1,5 +1,7 @@
 # Résolution du Challenge "Actuarial Loss Prediction"
 
+https://www.kaggle.com/competitions/actuarial-loss-estimation
+
 ## 1. Définition de la problématique business
 
 Le challenge consiste à prédire le coût total des réclamations de compensation des travailleurs (**Ultimate Incurred Claim Cost**). Ces réclamations concernent les compensations que les employés doivent recevoir après des accidents ou des incidents au travail. L'objectif principal est d'aider les compagnies d'assurance et les entreprises à mieux estimer les coûts futurs des réclamations pour ajuster leurs politiques d'assurance.
@@ -65,7 +67,20 @@ L'objectif final de cette compétition est d'appliquer des techniques d'analyse 
 
 ---
 
-## 4. Résultats après soumission
+## 4. Aller plus loin
+
+- **Pousser un peu plus la data prep/analysis**
+    - Détecter les outliers et les traiter
+    - Approfondir les liens entre les variables (correlations, chi2 etc.)
+    - Discrétiser certaines variables
+    - affinier le word2vec + clustering
+
+- **Mettre en place l'optimisation des hyperpamatres avec optuna par exemple**
+- **Mettre en place un monitoring des soumissions avec mlfow**
+
+---
+
+## 5. Résultats après soumission
 
 Après les différentes tentattives et optimisations, mon meilleur **private score** est de **23399.68398** et le classement aurait été entre le **5eme** et **6eme**.
 
